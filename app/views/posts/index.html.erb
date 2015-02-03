@@ -1,0 +1,10 @@
+I am the index
+
+<ul>
+  <% @posts.each do |post| %>
+  <li>
+
+    <%= link_to post.title, post %><br/>
+  </li>
+  <% end %>
+</ul>
